@@ -7,7 +7,7 @@ jobs:
   consoleLogChecker:
     runs-on: ubuntu-latest
     name: Check for console logs
-    uses: pkelly-rh/test-github-actions/.github/workflows/action.yaml@0c7320369520961863b11090510e5386649c79fb
+    uses: pkelly-rh/test-github-actions/.github/workflows/action.yaml@c7eac4de1546892c99f90184df9e8d4945acb5ef
 
   #   steps:
       # - name: Check for console logs
