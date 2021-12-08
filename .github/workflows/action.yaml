@@ -1,0 +1,19 @@
+name: Console Log Checker
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed, ready_for_review]
+
+jobs:
+  consoleLogChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for console logs
+        # uses: pkelly-rh/test-github-actions/.github/workflows/action.yaml
+        # uses: https://github.com/pkelly-rh/test-github-actions/blob/main/.github/workflows/action.yaml
+        uses: pkelly-rh/test-github-actions/.github/workflows/action.yaml@0c7320369520961863b11090510e5386649c79fb
+
+# You reference reusable workflow files using the syntax:
+# {owner}/{repo}/{path}/{filename}@{ref}
+
+
+# RHCommerceDev
