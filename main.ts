@@ -1,1 +1,1 @@
-console.log("bad boy")
+// removed the bad
