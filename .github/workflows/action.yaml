@@ -5,4 +5,5 @@ on:
 
 jobs:
   consoleLogChecker:
-    uses: pkelly-rh/test-github-actions/.github/workflows/action.yaml@c7eac4de1546892c99f90184df9e8d4945acb5ef
+    uses: pkelly-rh/test-github-actions/.github/workflows/console-log-guard.yml@239fa3291dcba50bcd420b50db573f745f08459a
+    # {owner}/{repo}/{path}/{filename}@{ref}
